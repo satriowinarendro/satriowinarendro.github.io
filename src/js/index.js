@@ -1,8 +1,6 @@
-var $ = require('jquery');
-window.$ = $;
-window.jQuery = window.$;
+$ = jQuery = require('jquery');
 global.Tether = require('tether');
 global.Popper = require('popper.js');
 require('bootstrap');
 
-console.log("test test test");
+
