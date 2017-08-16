@@ -19,6 +19,7 @@
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "grunt": "^0.4.5",
+    "grunt-bell": "^0.1.2",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-compass": "^1.1.1",
     "grunt-contrib-concat": "^0.5.1",

@@ -23,11 +23,11 @@ module.exports = function(grunt) {
        watch: {
            sass:{
                files: ['src/sass/*.scss'],
-               tasks: ['sass', 'cssmin']
+               tasks: ['sass', 'cssmin','bell']
            },
            js:{
                 files: ['src/js/index.js'],
-                tasks: ['jshint','browserify','uglify']
+                tasks: ['jshint','browserify','uglify','bell']
            }
        },
     
@@ -130,6 +130,7 @@ module.exports = function(grunt) {
 
      grunt.loadNpmTasks('grunt-contrib-jshint');
     
+     grunt.loadNpmTasks('grunt-bell');
       // Default task(s).
-     grunt.registerTask('default', ['browserify','uglify','sass','cssmin','imagemin']);
+     grunt.registerTask('default', ['browserify','uglify','sass','cssmin','imagemin','bell']);
    };
