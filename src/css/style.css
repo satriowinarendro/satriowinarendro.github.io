@@ -153,15 +153,13 @@ body {
   background-image: url("../img/portfolio-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 800px; }
+  background-position: center center; }
 
 #experience .experience-background {
   background-image: url("../img/website-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 1600px; }
+  background-position: center center; }
 
 @media (max-width: 575px) {
   #home .parallax-home .slogan-text {
@@ -178,13 +176,8 @@ body {
     #skillset .skills .progress .progress-bar {
       padding-left: 6%; } }
 @media (max-width: 767px) {
-  .portfolio-background, .experience-background {
-    object-fit: cover;
-    /* Do not scale the image */
-    object-position: center;
-    /* Center the image within the element */
-    height: 800px;
-    width: 100%; }
+  .section-title {
+    font-size: 1.5rem; }
 
   #home .parallax-home .intro-block {
     width: 95% !important;
