@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+.indexContainer {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.indexText {
+  margin: 0 auto;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+}
+
+.indexSocial{
+  position: fixed;
+  bottom: 15px;
+}
+
+.indexSocialItem {
+  margin: 0 10px;
+}
+
+.indexSocialItem img{
+  margin-bottom: 0;
+}
